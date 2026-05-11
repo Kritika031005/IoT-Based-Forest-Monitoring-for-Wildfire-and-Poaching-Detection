@@ -109,8 +109,6 @@ Uses:
                               Alert System                    CSV Logging
 ```
 
----
-
 # 🧰 Hardware Components
 
 | Component | Purpose |
