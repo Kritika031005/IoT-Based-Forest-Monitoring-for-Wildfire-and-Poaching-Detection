@@ -99,7 +99,7 @@ Uses:
                            │
                     TinyML CNN Model
                            │
-┌─────────────┐      Threat Classification      ┌─────────────┐
+┌─────────────┐      Threat Classification     ┌─────────────┐
 │  BMP280     │ ─────────────────────────────► │  ESP32-S3   │
 │  Sensor     │                                │ Edge Device │
 └─────────────┘                                └──────┬──────┘
@@ -273,19 +273,6 @@ Advantages:
 | Model Size | < 400 KB |
 | Inference | Real-time |
 | Deployment | ESP32-S3 |
-
----
-
-# ✅ Test Cases
-
-| Feature | Expected Output |
-|---|---|
-| Gunshot Detection | POACHING DETECTED |
-| Logging Detection | ILLEGAL LOGGING DETECTED |
-| Fire Prediction | HIGH FIRE RISK |
-| Normal Sound | NORMAL FOREST ACTIVITY |
-| Email Alert | Alert Email Sent |
-| CSV Logging | Event Logged |
 
 ---
 
